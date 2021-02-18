@@ -26,7 +26,7 @@ function preload(){
   corona2Img = loadImage("Corona 1.png");
   corona3Img = loadImage("Corona 1.png");
   corona4Img = loadImage("Corona 1.png");
-  letter = loadImage("Wood.png");
+  letter = loadImage("Wood.PNG");
   letter2 = loadImage("Wood 2.png");
   letter3 = loadImage("Wood 3.png");
 
