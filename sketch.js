@@ -228,7 +228,7 @@ function setup() {
 }
 
 function draw() {
-  background("black");
+  background("blue");
 
   if(gameState === "play"){
 
@@ -237,16 +237,16 @@ function draw() {
   text("SCORE = " + score, 834, 650);
 
   if(keyDown("left")){
-    player.x = player.x - 10;
+    player.x = player.x - 20;
   } 
   if(keyDown("right")){
-    player.x = player.x + 10;
+    player.x = player.x + 20;
   } 
   if(keyDown("up")){
-    player.y = player.y - 10;
+    player.y = player.y - 20;
   } 
   if(keyDown("down")){
-    player.y = player.y + 10;
+    player.y = player.y + 20;
   } 
 
   for(var i = 0; i<m1.length; i++){
